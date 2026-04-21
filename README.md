@@ -1,8 +1,6 @@
 # Gut Cell Database — Build & Chat Agent
 
-A single-cell RNA-seq database and conversational query agent for the human gut, grounded in:
-
-> Vandana et al. *"Integrative Single-Cell Spatial Multi-Omics Analysis of Human Fetal Intestine."*
+A single-cell RNA-seq database and conversational query agent for the human gut.
 
 The pipeline converts an AnnData (`h5ad`) file into a normalized SQLite database with C2S embeddings, then exposes a natural-language chat interface backed by a vLLM-served C2S model.
 
