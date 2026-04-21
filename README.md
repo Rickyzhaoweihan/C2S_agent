@@ -144,36 +144,6 @@ python chat.py \
 | `--top_k` | 30 | Top-k sampling |
 | `--top_p` | 0.9 | Top-p (nucleus) sampling |
 
----
-
-## Example Queries
-
-```
-# Cell type queries
-tell me about goblet cells
-what are enteroendocrine cells?
-describe stem cells in the duodenum
-
-# Gene queries
-MUC2 expression in the colon
-which cells express GIP?
-APOA1
-
-# Comparison queries
-compare goblet cells and enterocytes
-L cells vs K cells
-difference between stem cells and TA cells
-
-# Metadata + filter queries
-goblet cells in the colon from adult donors
-enterocytes in the jejunum
-cells in seurat cluster 3
-resolution 0.35 cluster 2
-
-# QC-filtered queries
-cells with percent_mt < 5
-n_count_rna > 1000
-```
 
 ---
 
